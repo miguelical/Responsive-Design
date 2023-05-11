@@ -1,0 +1,5 @@
+#imágenes e íconos
+
+*.jpg
+*.png
+/assets
