@@ -8,7 +8,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fira+Sans:wght@200&family=Inter:wght@300;500&family=Montserrat:ital,wght@0,300;0,400;0,500;1,200&family=Nunito+Sans&family=Poppins:wght@400;500;600;700;800&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 930px)">
   <title>Batatabit</title>
 </head>
 <body>
@@ -17,7 +18,7 @@
     <div class="header--title-container">
       <h1>La próxima revolución en el intercambio de criptomonedas.</h1>
       <p>Batabit te ayuda a navegar entre los diferentes precios y tendencias.</p>
-      <a class="header--button" href="">Conoce Nuestros Planes <span></span></a>
+      <a class="header--button" href="#plans">Conoce Nuestros Planes <span></span></a>
     </div>
   </header>
   <main>
@@ -94,19 +95,16 @@
             <p class="product--card-title">Tiempo real</p>
             <p class="product--card-body">Nuestro API toma información minuto a minuto sobre las tasas que más determinan el comportamiento</p>
         </article>
-
         <article class="product-detail--card">
           <span class="eye icon-card"></span>
             <p class="product--card-title">No hay tasas escondidas</p>
             <p class="product--card-body">Ni en la compra o al momento de exit, Batabit siempre te muestra el costo real de lo que estás adquiriendo.</p>
         </article>
-
         <article class="product-detail--card">
           <span class="dollar icon-card"></span>
             <p class="product--card-title">Compra monedas</p>
             <p class="product--card-body">No más rumores, con Babtabit sabrás el valor real de cada moneda en el mercado actual.</p>
         </article>
-
         <article class="product-detail--card">
           <span class="check-circle icon-card"></span>
             <p class="product--card-title">Información confiable</p>
@@ -114,9 +112,56 @@
         </article>
       </section>
     </section>
-    <section></section>
-    <section></section>
+    <section class="bitcoin-img-container">
+      <h2>Conócelo hoy.</h2>
+    </section>
+    <section id="plans" class="main-plans-container">
+      <div class="plans--title">
+        <h2>Escoge el plan que mejor se ajuste a ti.</h2>
+        <p>Cualquier plan te da acceso completo a nuestra plataforma.</p>
+      </div>
+      <section class="plans-container--slider">
+        <article class="plans-container--card ">
+          <p class="recommended">Recomendado</p>
+          <div class="plan-info-container">
+            <h3 class="plan-card--title">Pago Anual</h3>
+            <p class="plan-card--price"><span>$</span> 99</p>
+            <p class="plan-card-saving">* Ahorras $129 comparado al plan mensual.</p>
+            <button class="plan-card-call-to-action">Escoger este <span></span></button>
+          </div>
+        </article>
+        <article class="plans-container--card card-two">
+          <p class="recommended content-title-two">Básico</p>
+          <div class="plan-info-container">
+            <h3 class="plan-card--title">Pago Mensual</h3>
+            <p class="plan-card--price"><span>$</span> 19</p>
+            <p class="plan-card-saving">* Plan básico aunque con todas ventajas.</p>
+            <button class="plan-card-call-to-action">Escoger este <span></span></button>
+          </div>
+        </article>
+        <article class="plans-container--card card-three">
+          <p class="recommended content-title-three">Limitado</p>
+          <div class="plan-info-container">
+            <h3 class="plan-card--title tp-light">Pago por vida</h3>
+            <p class="plan-card--price tp-light"><span>$</span> 199</p>
+            <p class="plan-card-saving">* Exclusiva para los primeros 100 clientes con un precio especial.</p>
+            <button class="plan-card-call-to-action button-black">Escoger este <span></span></button>
+          </div>
+        </article>
+      </section>
+    </section>
   </main>
-  <footer></footer>
+  <footer>
+    <section class="leftt">
+      <ul>
+        <li><a href="#">Linkedin</a></li>
+        <li><a href="#">Crunchbase</a></li>
+        <li><a href="#">Hackernews</a></li>
+      </ul>
+    </section>
+    <section>
+      <img src="./assets/img/logo-footer.svg" alt="Logo de Batatabit 2020">
+    </section>
+  </footer>
 </body>
 </html>
